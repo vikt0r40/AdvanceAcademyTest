@@ -5,6 +5,6 @@ public class Helper {
         System.out.println(a + b);
     }
     public static void doSomething() {
-        
+
     }
 }
