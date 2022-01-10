@@ -1,32 +1,18 @@
 package com.company;
 
 public class User {
-    private String firstName;
-    private String lastName;
     private String email;
+    private String fullname;
     private String password;
 
-    public User(String firstName, String lastName, String email, String password) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+    public User(String fullname, String email, String password) {
+        this.fullname = fullname;
         this.email = email;
         this.password = password;
     }
 
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public String getFullname() {
+        return fullname;
     }
 
     public String getEmail() {
