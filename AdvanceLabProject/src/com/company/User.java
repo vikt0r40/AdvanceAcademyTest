@@ -1,6 +1,6 @@
 package com.company;
 
-public class User {
+public class User<String> {
     private String fullName;
     private String email;
     private String password;
@@ -9,6 +9,9 @@ public class User {
         this.fullName = fullName;
         this.email = email;
         this.password = password;
+    }
+
+    public User(java.lang.String viktor_todorov, java.lang.String string, java.lang.String string1) {
     }
 
     public String getFullName() {

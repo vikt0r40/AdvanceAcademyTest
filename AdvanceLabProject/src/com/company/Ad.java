@@ -6,10 +6,13 @@ public class Ad {
     private String price;
     private User seller;
 
-    public Ad(String title, String price, User seller) {
+    public Ad(String title, String price, User user) {
         this.title = title;
         this.price = price;
-        this.seller = seller;
+
+    }
+
+    public Ad(java.lang.String s, java.lang.String s1, User user) {
     }
 
     public String getTitle() {
@@ -37,7 +40,7 @@ public class Ad {
     }
 
     @Override
-    public String toString() {
+    public java.lang.String toString() {
         return "Ad{" +
                 "title='" + title + '\'' +
                 ", price='" + price + '\'' +
